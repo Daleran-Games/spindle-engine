@@ -65,7 +65,7 @@ public:
 
 protected:
 	int _width = 96;
-	DividerStyle _style;
+	DividerStyle _style = DEFAULT_DIVIDER_STYLE;
 };
 
 class UIstyle
